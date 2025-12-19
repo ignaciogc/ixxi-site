@@ -75,6 +75,20 @@
             font-size: 16px;
         }
 
+        .spain {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+
+        .spain-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
         @media (max-width: 768px) {
             .message {
                 font-size: 22px;
@@ -100,7 +114,8 @@
     <footer>
         <div class="footer-content">
             <div>&copy; <span id="year"></span> IXXI. All rights reserved.</div>
-            <div>Made with <span class="heart">❤</span> in Spain</div>
+            <div class="spain-footer"><span class="spain"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#000000"><path fill="#f7595b" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z"></path><path fill="#f2a74b" d="M0 12h36v12H0z"></path></svg>
+            </span> Made from Spain with love.</div>
         </div>
     </footer>
 
